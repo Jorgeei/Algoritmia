@@ -1,5 +1,0 @@
-ganado=int(input("digite el numero de partidos ganados: "))
-perdido=int(input("digite el numero de partidos perdido: "))
-empatado=int(input("digite el numero de partidos empatado: "))
-total=(ganado*3)+(perdido*0)+(empatado*1)
-print(f'su puntaje total es: {total}')
