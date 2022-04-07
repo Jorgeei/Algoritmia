@@ -1,8 +1,14 @@
-a=["Lunes",24.5,"Martes",65,"Miercoles",True,"Jueves",88.9,"Viernes",99.9,"Agua",False,"Sol",33,"Tierra",105.6,"Fuego",44,"Aire",789.7,"Limón"]
-print(a)
+n=int(input("Digite un numero entero: "))
+a=list(range(1,n))
+b=list()
 for i in a:
-    n=int(input("igrese un numero entero: "))
+    Elementos=str(input("Digite los elementos: "))
+    b.append(Elementos)
+print(b)
+for i in a:
+    n=int(input("Digite el numero:"))
     if n>=0:
-        print(a[n])
-    elif n<=0:
-        print("\nDigite un numero positivo")
+        print(a.index(n))
+    elif n<0:
+        print("\nEl numero que ha digitado es negativo, digite un numero positivo")
+        
